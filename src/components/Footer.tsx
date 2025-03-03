@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="container mx-auto px-6 pt-16 pb-8">
         <div className="grid md:grid-cols-4 gap-10 mb-16">
           <div className="md:col-span-1">
-            <h2 className="font-display text-xl mb-6">Spiritual Dining</h2>
+            <h2 className="font-display-text text-xl mb-6">Spiritual Dining</h2>
             <p className="text-white/70 mb-6">
               A first-of-its-kind vegetarian restaurant in Hyderabad, offering a unique spiritual dining experience.
             </p>
@@ -37,7 +37,7 @@ const Footer = () => {
           </div>
           
           <div>
-            <h3 className="font-display text-lg mb-6">Navigation</h3>
+            <h3 className="font-display-text text-lg mb-6">Navigation</h3>
             <ul className="space-y-4">
               <li>
                 <Link to="/" className="text-white/70 hover:text-white transition-colors">Home</Link>
@@ -58,7 +58,7 @@ const Footer = () => {
           </div>
           
           <div>
-            <h3 className="font-display text-lg mb-6">Opening Hours</h3>
+            <h3 className="font-display-text text-lg mb-6">Opening Hours</h3>
             <ul className="space-y-4">
               <li className="text-white/70">
                 <span className="block font-medium text-white">Tuesday - Sunday</span>
@@ -73,26 +73,26 @@ const Footer = () => {
           </div>
           
           <div>
-            <h3 className="font-display text-lg mb-6">Contact Us</h3>
+            <h3 className="font-display-text text-lg mb-6">Contact Us</h3>
             <ul className="space-y-4">
               <li className="flex items-start">
                 <MapPin className="w-5 h-5 text-spiritual-400 mr-3 mt-1" />
                 <span className="text-white/70">
-                  123 Spiritual Lane,<br />
+                  Gachboli 123 Spiritual Lane,<br />
                   Jubilee Hills, Hyderabad,<br />
                   Telangana 500033
                 </span>
               </li>
               <li className="flex items-center">
                 <Phone className="w-5 h-5 text-spiritual-400 mr-3" />
-                <a href="tel:+919876543210" className="text-white/70 hover:text-white transition-colors">
-                  +91 98765 43210
+                <a href="tel:+919848772991" className="text-white/70 hover:text-white transition-colors">
+                  +91 98487 72991
                 </a>
               </li>
               <li className="flex items-center">
                 <Mail className="w-5 h-5 text-spiritual-400 mr-3" />
-                <a href="mailto:info@spiritualdining.com" className="text-white/70 hover:text-white transition-colors">
-                  info@spiritualdining.com
+                <a href="mailto:chakracuisine@spiritualdining.com" className="text-white/70 hover:text-white transition-colors">
+                  chakracuisine@spiritualdining.com
                 </a>
               </li>
             </ul>
