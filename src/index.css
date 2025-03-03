@@ -56,11 +56,11 @@
     background-blend-mode: overlay;
   }
 
-  .font-display {
+  .font-display-text {
     @apply font-display tracking-wide;
   }
 
-  .font-serif {
+  .font-serif-text {
     @apply font-serif tracking-wide;
   }
 
