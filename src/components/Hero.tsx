@@ -32,7 +32,7 @@ const Hero = () => {
   return (
     <section className="relative h-screen flex items-center overflow-hidden">
       {/* Background Image - optimized for smooth loading */}
-      <div className="absolute inset-0 bg-black/20 z-10"></div>
+      <div className="absolute inset-0 bg-black/50 z-10"></div>
       <div 
         className="absolute inset-0 bg-cover bg-center animate-scale-in" 
         style={{ 
@@ -44,20 +44,20 @@ const Hero = () => {
       {/* Content */}
       <div className="container mx-auto px-6 relative z-20">
         <div className="max-w-3xl mx-auto text-center">
-          <span className="inline-block tag text-sm uppercase tracking-wider mb-4 animate-reveal">
+          <span className="inline-block tag text-sm uppercase tracking-wider mb-4 animate-reveal font-medium text-white bg-primary/30">
             Welcome to Spiritual Dining
           </span>
-          <h1 className="font-display text-4xl md:text-6xl text-white leading-tight mb-6 animate-reveal reveal-delay-200">
+          <h1 className="font-display text-4xl md:text-6xl text-white leading-tight mb-6 animate-reveal reveal-delay-200 drop-shadow-lg">
             Food prepared with sincerity, devotion, and love brings its own reward.
           </h1>
-          <p className="font-serif text-white/90 text-lg md:text-xl mb-10 max-w-2xl mx-auto animate-reveal reveal-delay-400">
+          <p className="font-serif text-white/90 text-lg md:text-xl mb-10 max-w-2xl mx-auto animate-reveal reveal-delay-400 drop-shadow-md">
             Experience a first-of-its-kind vegetarian restaurant in Hyderabad that nourishes both body and soul.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-reveal reveal-delay-600">
             <a href="#booking" className="btn btn-primary">
               Book a Table
             </a>
-            <a href="#menu" className="btn btn-outline text-white border-white/30 hover:bg-white/20 hover:text-white">
+            <a href="#menu" className="btn btn-outline text-white border-white hover:bg-white/20 hover:text-white bg-white/10">
               Explore Menu
             </a>
           </div>
