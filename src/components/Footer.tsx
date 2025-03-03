@@ -78,9 +78,8 @@ const Footer = () => {
               <li className="flex items-start">
                 <MapPin className="w-5 h-5 text-spiritual-400 mr-3 mt-1" />
                 <span className="text-white/70">
-                  Gachboli 123 Spiritual Lane,<br />
-                  Jubilee Hills, Hyderabad,<br />
-                  Telangana 500033
+                  Gachibowli, Hyderabad,<br />
+                  Telangana 500032
                 </span>
               </li>
               <li className="flex items-center">
@@ -91,7 +90,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center">
                 <Mail className="w-5 h-5 text-spiritual-400 mr-3" />
-                <a href="mailto:chakracuisine@spiritualdining.com" className="text-white/70 hover:text-white transition-colors">
+                <a href="mailto:chakracuisine@spiritualdining.com" className="text-white/70 hover:text-white transition-colors break-all">
                   chakracuisine@spiritualdining.com
                 </a>
               </li>
