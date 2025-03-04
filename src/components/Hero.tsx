@@ -36,7 +36,7 @@ const Hero = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center animate-scale-in" 
         style={{ 
-          backgroundImage: 'url(https://images.unsplash.com/photo-1564834744159-ff0ea41ba4b9?ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80)',
+          backgroundImage: 'url(https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80)',
           backgroundBlendMode: 'overlay'
         }}
       ></div>
